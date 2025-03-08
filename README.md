@@ -1,2 +1,17 @@
-# basic-underwater_detection
-yolov3 model that detects cracks and rust/mess
+
+# Underwater Detection
+
+This is a YOLOv3-based model that detects cracks and rust/mess
+
+## Setup Instructions
+
+1. Clone the repository:https://github.com/AlexeyAB/darknet.git [Extra files are present can be deleted accordingly]
+2. Set up a Python virtual environment:
+3. Run script;customtrain.py
+## File Structure
+
+- `dataset/`: Contains train, valid, and test datasets.train further contains images(which has images and labels) and labels which have only the labels.
+- `darknet/`: Contains YOLOv3 implementation and configuration files.
+- `backup/`: Stores trained weights.
+
+note:while running the custom script ensure images and labels are in the same folder.
