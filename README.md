@@ -5,6 +5,7 @@ This is a YOLOv3-based model that detects cracks and rust/mess
 
 ## Setup Instructions
 1.Clone repo with submodules:git clone --recurse-submodules  https://github.com/srinidhi1-dwarak/basic-underwater_detection.git
+
 2. Set up a Python virtual environment:
 3. Run script;customtrain.py
 ## File Structure
